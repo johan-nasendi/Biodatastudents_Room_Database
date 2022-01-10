@@ -1,0 +1,261 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.AboutActivity"
+    android:background="@color/about"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/wave_blue"
+        app:elevation="0dp">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!--Johan-->
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="120dp"
+        android:id="@+id/cardView"
+        cardCornerRadius="10dp"
+        cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:padding="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/lyt_img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/johan" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_toRightOf="@id/lyt_img1"
+                android:lines="1"
+                android:text="JHON MAURITS NASENDI"
+                android:textColor="#1C1C1C"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/lyt_img1"
+                android:text="1911182"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- Nurinun-->
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="270dp"
+        cardCornerRadius="10dp"
+        cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="195dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:padding="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_inu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/inun" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/nama_inu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_toRightOf="@id/img_inu"
+                android:lines="1"
+                android:text="Nurainun"
+                android:textColor="#1C1C1C"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/dev_inu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama_inu"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/img_inu"
+                android:text="1911148"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Risma-->
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="420dp"
+        cardCornerRadius="10dp"
+        cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/white"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="342dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/white"
+            android:padding="12dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/img_ris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/risma" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/nama_risma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_toRightOf="@id/img_ris"
+                android:lines="1"
+                android:text="CHRISMAWATY"
+                android:textColor="#1C1C1C"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/dev_risma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama_risma"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/img_ris"
+                android:text="1911149"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/button_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/wave_blue"
+        android:elevation="3dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/buttom_menu" />
+
+
+    <com.massivedisaster.widget.ArcToolbarView
+        android:id="@+id/arcToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" >
+
+
+    </com.massivedisaster.widget.ArcToolbarView>
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:collapsedTitleTextAppearance="@style/Toolbar.TitleText"
+        app:contentScrim="?attr/colorPrimary"
+        app:expandedTitleGravity="center"
+        app:expandedTitleMarginBottom="50dp"
+        app:expandedTitleTextAppearance="@style/Toolbar.TitleText"
+        app:layout_anchor="@+id/arcToolbar"
+        app:layout_anchorGravity="center"
+        app:layout_scrollFlags="enterAlways"
+        app:toolbarId="@+id/toolbar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin" />
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

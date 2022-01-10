@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/drawable/bg_button_primary.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/drawable/ic_overflow.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/drawable/item_selector.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/drawable/rounded.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/drawable/wave_blue.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_about.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_info.xml" value="0.152" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_list_siswa.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_main2.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_setting.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_splash_screen.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_tambah_kelas.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_tambah_siswa.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/activity_update_kelas.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/item_kelas.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/layout/item_siswa.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/menu/buttom_menu.xml" value="0.24635416666666668" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/BiodataRoomDB/BiodataSiswa/app/src/main/res/menu/popup_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

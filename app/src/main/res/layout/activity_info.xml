@@ -1,0 +1,120 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.InfoActivity"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/wave_blue"
+        app:elevation="0dp">
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="120dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        app:cardElevation="50dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:src="@drawable/info"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFO"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textColor="#34495e"
+                android:fontFamily="sans-serif-black"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:text="Biomas adalah aplikasi biodata mahasiswa, yang di input berdasarkan kelas nya, dengan nama kelas dan wali kelas nya, di dalam kelas kita dapat menginput data mahasiswa, aplikasi mengunakan database Room. "
+                android:textSize="18dp"
+                android:textColor="#7f8c8d"/>
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/button_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/wave_blue"
+        android:elevation="3dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/buttom_menu" />
+
+
+    <com.massivedisaster.widget.ArcToolbarView
+        android:id="@+id/arcToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" >
+
+
+    </com.massivedisaster.widget.ArcToolbarView>
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:collapsedTitleTextAppearance="@style/Toolbar.TitleText"
+        app:contentScrim="?attr/colorPrimary"
+        app:expandedTitleGravity="center"
+        app:expandedTitleMarginBottom="50dp"
+        app:expandedTitleTextAppearance="@style/Toolbar.TitleText"
+        app:layout_anchor="@+id/arcToolbar"
+        app:layout_anchorGravity="center"
+        app:layout_scrollFlags="enterAlways"
+        app:toolbarId="@+id/toolbar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_collapseMode="pin" />
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
